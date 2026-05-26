@@ -353,7 +353,7 @@ footer                            { visibility: hidden; }
 /* ── Buttons ── */
 .stButton > button {
     background: #0075BE !important;
-    color: #fff !important;
+    color: #ffffff !important;
     border: none !important;
     border-radius: 8px !important;
     font-weight: 800 !important;
