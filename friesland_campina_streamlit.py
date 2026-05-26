@@ -353,18 +353,33 @@ footer                            { visibility: hidden; }
 /* ── Buttons ── */
 .stButton > button {
     background: #0075BE !important;
-    color: #ffffff !important;
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+
     border: none !important;
     border-radius: 8px !important;
+
     font-weight: 800 !important;
     font-size: 1rem !important;
+
     padding: 12px 0 !important;
     width: 100% !important;
-    letter-spacing: .3px;
-    transition: background .2s;
+
+    letter-spacing: .3px !important;
+    opacity: 1 !important;
+    transition: background .2s !important;
 }
-.stButton > button:hover { background: #005A9A !important; }
-.stButton > button:disabled { opacity: .5 !important; }
+
+.stButton > button:hover {
+    background: #005A9A !important;
+    color: #FFFFFF !important;
+    -webkit-text-fill-color: #FFFFFF !important;
+}
+
+.stButton > button:disabled {
+    opacity: .5 !important;
+}
+
 
 /* ── Download button ── */
 .stDownloadButton > button {
